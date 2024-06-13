@@ -17,6 +17,11 @@ The main aim of this project is to develop a system that would detect the amount
 - GSM modules can be external modems or embedded within equipment.
 - They rely on SIM cards for network communication. Unlike mobile phones, which have embedded processors, GSM modules serve as dedicated communication components.
 - They play a crucial role in enabling wireless communication across the globe.
+* #### Wire the GPS to your Arduino board as follows:
+  - VCC to 5V in Arduino
+  - TX to digital pin 6
+  - RX to digital pin 7
+  - GND to ground pin
 * #### Features of GSM Module: 
   - Improved spectrum efficiency 
   -	International roaming 
@@ -32,6 +37,11 @@ The main aim of this project is to develop a system that would detect the amount
 - A GPS module is a compact electronic device that receives signals from a network of satellites orbiting the Earth to determine its precise location.
 - It integrates various components, including a GPS receiver, antenna, and onboard circuitry, to process the received signals and provide accurate positioning information1.
 - These modules play a crucial role in various applications, such as navigation, tracking, and geographic information systems (GIS).
+* #### Wire the GPS to your Arduino board as follows:
+  - VCC to 5V in Arduino
+  - TX to digital pin 6
+  - RX to digital pin 7
+  - GND to ground pin
 * #### Features of GPS Module:
   - A complete GPS module with an active antenna integrated, and a built-in EEPROM to save configuration parameter data.
   - Built-in 25 x 25 x 4mm ceramic active antenna provides strong satellite search capability.
@@ -41,13 +51,13 @@ The main aim of this project is to develop a system that would detect the amount
 
 ### 4. LCD Display
 - LCDs (Liquid Crystal Displays) are versatile and commonly used for displaying information. Here’s a step-by-step guide:
-#### * Wire the LCD screen to your Arduino board as follows:
+* #### Wire the LCD screen to your Arduino board as follows:
   - LCD RS pin to digital pin 1.
   - LCD Enable pin to digital pin 11
   - LCD D4-D7 pins to digital pins 5, 4, 3, and 2
   - LCD R/W pin to GND
   - LCD VSS pin to GND
-#### * Characteristics of LCD display
+* #### Characteristics of LCD display
   - Character LCD 16x4
   - 5x8 dots includes cursor
   - Built-in controller (ST7066 or Equivalent)
