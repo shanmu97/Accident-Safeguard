@@ -3,12 +3,11 @@ The main aim of this project is to develop a system that would detect the amount
 
 ## SYSTEM COMPONENTS
 ### 1. Arduino 
--	Arduino Uno is a microcontroller board based on the ATmega328P (datasheet). It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz quartz crystal, a USB connection, a power jack, an ICSP header and a reset button. It contains everything needed to support the microcontroller; simply Arduino Uno [13] connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started. 
--	You can tinker with your UNO without warring too much about doing something wrong, worst case scenario you can replace the chip for a few dollars and start over again. "Uno" means one in Italian and was chosen to mark the release of Arduino Software (IDE) 1.0. 
--	The Uno board and version 1.0 of Arduino Software (IDE) were the reference versions of Arduino, now evolved to newer releases.
--	 The Uno board is the first in a series of USB Arduino boards, and the reference model for the Arduino platform; for an extensive list of current, past or outdated boards see the Arduino index of boards.
--	Arduino consists of both a physical programmable circuit board (often referred to as a microcontroller) and a piece of software, or IDE (Integrated Development Environment) that runs on your computer, used to write and upload computer code to the physical board. 
--	The Arduino IDE uses a simplified version of C++, making it easier to learn to program. Finally, Arduino provides a standard form factor that breaks out the functions of the micro-controller into a more accessible package.
+- Arduino is an open-source electronics platform based on easy-to-use hardware and software.
+- Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.
+- You can tell your board what to do by sending a set of instructions to the microcontroller on the board.
+- To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
+- The board is equipped with 14 digital input/output pins (of which 6 can be used as PWM outputs), and 6 analog input/output pins12.
 
 ### 2. GSM Module
 - A GSM module is a compact electronic device that facilitates communication between devices and the GSM (Global System for Mobile Communications) network.
@@ -64,4 +63,3 @@ The main aim of this project is to develop a system that would detect the amount
   - +5V power supply (Also available for +3V)
   - WG16032D3 optional for +3V power supply
   - 1/16 duty cycle
-
